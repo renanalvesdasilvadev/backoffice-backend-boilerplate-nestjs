@@ -1,0 +1,19 @@
+{
+  "name": "backoffice-lambda-shipping-contingency-upload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kabum/backoffice-lambda-shipping-contingency-upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kabum/backoffice-lambda-shipping-contingency-upload/issues"
+  },
+  "homepage": "https://github.com/kabum/backoffice-lambda-shipping-contingency-upload#readme"
+}
