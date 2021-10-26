@@ -1,0 +1,4 @@
+./nde_modules/
+*.zip
+*.csv
+.env
