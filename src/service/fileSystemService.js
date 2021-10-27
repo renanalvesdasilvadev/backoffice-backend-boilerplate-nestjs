@@ -1,7 +1,6 @@
 'use strict'
 
 const fs = require('fs');
-const {readChunk} = require('read-chunk');
 const { fromBuffer } = require('file-type');
 
 module.exports = class FileSystemService {

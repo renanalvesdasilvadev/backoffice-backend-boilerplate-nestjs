@@ -1,11 +1,10 @@
 'use strict'
 
-const S3Service = require('./src/service/s3Service');
-const ZipService = require('./src/service/zipService');
-const FileSystemService = require('./src/service/fileSystemService');
+const S3Service = require('./src/service/s3Service')
+const ZipService = require('./src/service/zipService')
+const FileSystemService = require('./src/service/fileSystemService')
 
 module.exports.handler = async (event) => {
-  require('dotenv').config();
   console.log(event);
   return;
   

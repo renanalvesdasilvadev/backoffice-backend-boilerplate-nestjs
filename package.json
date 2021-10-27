@@ -1,5 +1,4 @@
 {
-  "private": true,
   "name": "backoffice-lambda-upload-shipping-contingency",
   "version": "1.0.0",
   "description": "",
