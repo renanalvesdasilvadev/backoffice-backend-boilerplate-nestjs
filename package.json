@@ -13,6 +13,8 @@
     "serverless-s3-local": "^0.6.20"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
+    "read-chunk": "^4.0.2",
     "yauzl": "^2.10.0"
   }
 }
