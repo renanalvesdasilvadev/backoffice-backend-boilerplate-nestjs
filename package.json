@@ -1,19 +1,19 @@
 {
-  "name": "backoffice-lambda-shipping-contingency-upload",
+  "name": "backoffice-lambda-upload-shipping-contingency",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kabum/backoffice-lambda-shipping-contingency-upload.git"
-  },
-  "author": "",
+  "main": "handler.js",
+  "author": "Kabum",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kabum/backoffice-lambda-shipping-contingency-upload/issues"
+  "devDependencies": {
+    "aws-sdk": "2.223.1",
+    "serverless": "1.26.1",
+    "serverless-offline": "3.20.1",
+    "serverless-s3-local": "^0.6.20"
   },
-  "homepage": "https://github.com/kabum/backoffice-lambda-shipping-contingency-upload#readme"
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "read-chunk": "^4.0.2",
+    "yauzl": "^2.10.0"
+  }
 }
