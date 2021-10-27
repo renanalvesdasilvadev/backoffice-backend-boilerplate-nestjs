@@ -2,7 +2,7 @@
   "name": "backoffice-lambda-upload-shipping-contingency",
   "version": "1.0.0",
   "description": "",
-  "main": "handler.js",
+  "main": "index.js",
   "author": "Kabum",
   "license": "ISC",
   "devDependencies": {
