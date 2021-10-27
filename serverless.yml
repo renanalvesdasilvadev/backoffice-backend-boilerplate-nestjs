@@ -20,6 +20,6 @@ provider:
 
 functions:
   handler:
-    handler: handler.handler
+    handler: index.handler
     environment:
       BUCKET: ${self:custom.bucket}
