@@ -6,7 +6,11 @@ const FileSystemService = require('./src/service/fileSystemService')
 
 module.exports.handler = async (event) => {
   console.log(event);
-  return;
+  const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello from Lambda sextou!!!!!!!'),
+    };
+  return response;
   
   let file;
 
